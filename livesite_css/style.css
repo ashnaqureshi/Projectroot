@@ -1,0 +1,143 @@
+
+.horizontal .menu li {
+  float: left;
+}
+.clearfix:after, .menu:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.menu-dropdown .more-indicator {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url(../img/arrows.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+}
+a {
+  text-decoration: none;
+}
+
+.menu-dropdown .menu li, .menu-dropdown .menu a {
+  position: relative;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+  .col-c {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  width: auto;
+}
+
+.horizontal li.expanded > ul.menu {
+  display: none;
+  top: 37px;
+  width: auto;
+}
+
+.menu-dropdown .menu .menu {
+  display: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  width: 15em;
+  z-index: 200;
+}
+ul li.expanded, ul li.collapsed, ul li.leaf {
+
+  margin: 0;
+}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+  margin-top: 0;
+}
+h1 {
+  color: #A9AE00;
+  font-family: 'gothambook';
+  font-size: 36px;
+  line-height: 38px;
+  margin-bottom: 17px;
+}
+/* .horizontal li.expanded, .horizontal li.collapsed, .horizontal li.leaf, .horizontal ul ul li.expanded, .horizontal ul ul li.collapsed, .horizontal ul ul li.leaf, .horizontal ul ul ul li.expanded, .horizontal ul ul ul li.collapsed, .horizontal ul ul ul li.leaf {
+    list-style-type: none;
+} */
+span.ext {
+background: url(../img/extlink.png) right center no-repeat;
+  padding-right: 12px;
+}
+/***********CSS fix **********/
+#main h1{
+font-weight:400;
+}
+#block-system-main-menu .content {
+    width: 1000px;
+}
+.hide {
+    display: none;
+}
+#sidebar-a .block ul li#meet-committee-last {
+    margin-bottom: -12px;
+}
+#meet-committee-flw {
+    margin: 10px 0 25px;
+}
+.mt-p {
+    margin-top: 32px;
+}
+.mtabuse-p {
+    margin-top: 6px;
+}
+#right-panel-pathophysiologic {
+    margin-top: 59px;
+}
+.mtat27 {
+    margin-top: 25px;
+}
+
+#pathophysiologic-img {
+    margin: 0 20px 15px 0;
+}
+
+#path-img1 ,#path-img2, #path-img3 {
+    margin: 0 27px 15px 0;
+}
+.project_ul {
+    list-style: outside none disc;
+    margin-left: 16px;
+}
+#footer{
+clear:both;
+}
+#tools_resources h5 {
+    margin-top: 1.5em;
+}
+#tools_resources .left-panel {
+    margin: -20px 0 0 20px;
+}
+
+#mid-content-chronic-pain h1 {
+    margin-bottom: 18px;
+}
+.mt33 {
+    margin-top: 33px;
+}
+
+#pain-medication {
+    margin: 37px 0 0;
+}

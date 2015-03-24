@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Player</title>
+
+  <script src="js\jquery.js"></script>
+  <script src="js\jquery.colorbox.js"></script>
+<link rel="stylesheet" type="text/css" href="colorbox.css">
+
+<style>
+  .hide {
+    display: none;
+  }
+</style>
+</head>
+
+
+<body>
+
+<div class="video-link" data-video-id="why-i-joined">show video</div>
+<div id="test">show video</div>
+
+<div class="hide" id="why-i-joined-wrapper">
+
+ <video id="why-i-joined-video" controls="controls" width="640" height="360">
+  <source src="videos/1852113022001_3156156227001_1-1-WhyIJoined-1-27-14FINAL.mp4" type="video/mp4" />
+  <object type="application/x-shockwave-flash" data="flashfox.swf" width="640" height="360">
+    <param name="movie" value="flashfox.swf" />
+    <param name="allowFullScreen" value="true" />
+    <param name="wmode" value="transparent" />
+    <param name="flashVars" value="controls=true&amp;src=videos%2F1852113022001_3156156227001_1-1-WhyIJoined-1-27-14FINAL.mp4" />
+  </object>
+</video>
+</div>
+</body>
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $('.video-link').click(function() {
+      var video_id = $(this).attr('data-video-id');
+      $('#' + video_id + '-wrapper').removeClass('hide');
+      $.colorbox({
+        inline:true,
+        href:'#' + video_id + '-wrapper',
+        onClosed:function() {
+          $('#' + video_id + '-wrapper').addClass('hide');
+        }
+      });
+      var video = document.getElementById(video_id + '-video');
+      if (video && video.play) {
+        video.play();
+      }
+    });
+  });
+</script>
+</html>
+

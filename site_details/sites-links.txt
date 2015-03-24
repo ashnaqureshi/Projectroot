@@ -1,0 +1,42 @@
+pages-links
+Home-Page--------index.html
+
+About Rethink Opioids ------
+  what-is-project-root.html
+  steering-committee.html
+
+Why Rethink Opioids?-------
+  why-rethink-opioids.html
+  prescription-opioid-abuse.html
+  concerns-of-health-care-professionals.html
+
+Practical Approaches-----------
+  practical-approaches.html
+  appropriate-treatment.html
+        ---pathophysiologic-types-of-chronic-pain.html
+        ---medication-options-of-chronicpain.html
+  applying-universal-precautions.html
+        ---assess-risk.html
+        ---select-agent.html
+        ---dialogue-with-patient.html
+        ---monitor-treatment.html
+  principles-in-practice.html
+        ---principles-in-practice-ralph.html
+        ---principles-in-practice-mary.html
+        ---principles-in-practice-susan.html
+
+Tools and Resources---
+  tools-and-resources.html
+  patient-assessment-tools.html
+  precautions-implementation-tool.html(img)
+  guidelines.html
+  glossary.html
+  
+  
+    <script src="js\jquery.cookie.js"></script>
+    <script src="js\text-resize.js"></script>
+
+
+
+
+
